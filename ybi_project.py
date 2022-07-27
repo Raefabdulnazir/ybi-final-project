@@ -65,7 +65,7 @@ x
 """## **Train Test Split the Data**"""
 
 from sklearn.model_selection import train_test_split
-x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y,stratify=y, test_size = 0.3,random_state=192529)
+x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y,stratify=y, test_size = 0.3,random_state=182529)
 '''
 stratify: preserves proportion of target variable
 random_state: used for initializing the internal random number generator, 
